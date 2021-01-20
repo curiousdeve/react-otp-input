@@ -4,5 +4,84 @@
     "name": "v8 test collection",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": []
+  "item": [
+    {
+      "name": "https://play.google.com/log?format=json&hasfast=true&authuser=1",
+      "_postman_id": "381723ff-9ab1-4008-9107-fcbd4f12647a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "Authorization",
+            "value": "SAPISIDHASH 23f0f86cf982b5eeec8a7020b0ee6e1684add71e"
+          },
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "key": "X-Goog-AuthUser",
+            "value": "1"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/binary"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003íQo0\u0014ÿ!ñ\u0005Û·µÕ6MQRu¢N6Bq\u0007\u001b\u0014\u0013Ú?H54Û*Måá.öññ=\u0010à\u0014Û<ÿë\"þÓ\u000b\u00029à Uy\u001f¯©³â»ÝfÖT©b\u000f{\u0001È\bxQ\u00149\u0014;B `\u0000\u0010\u0010æ\u0003#\u001c=KG'\"!Ü©§¹*w9½úH%r$^Ì&Wåj\u0011<ÚÛ\u0005¾nf_ñ®_\u0013­ªå,dEz\u001d.Ö\u000fó*¿|î~ÚÒÆ\u0017j~ûù\u0013ÜO\u001en.Çi²®É ÐòÀÅ¾·ræàrb±\u0002¦5$Ov\"\u0007?qõ?î*»´7\u0012õ|KÔdEVlªÒÄ\u001f6¥­×ª\u0018ér½_'\u0006ê\u0001¥O\b\r1Ç¬5\u0010Ï¦ó\u0017JêQ»z»mÜ&-^»DÃóëe×Î\u001bÄørDkd*¶ÆÚ¬,ìX«<ßêNv1\u000báa\u001cuÏ³Æ>µÞHä!ÐèÄRË\u001bñX+\u0004\u000e¢þ-æÅãîþ\\B3í\u001c¾sö\u0016õ\b;OÇðÆv\u0010`ç\u0018\u001ea´mr\u0002Îov\u0011ûþ?Q6TþD\u0019§ì¿¥Ì\u001f ¼\teáYÊ\"ç@\u0019y¢ì\u0015À\n~\u0001%ó\u0002§è\u0007\u0000\u0000",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": {
+          "raw": "https://play.google.com/log?format=json&hasfast=true&authuser=1",
+          "protocol": "https",
+          "host": [
+            "play",
+            "google",
+            "com"
+          ],
+          "path": [
+            "log"
+          ],
+          "query": [
+            {
+              "key": "format",
+              "value": "json"
+            },
+            {
+              "key": "hasfast",
+              "value": "true"
+            },
+            {
+              "key": "authuser",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
 }
