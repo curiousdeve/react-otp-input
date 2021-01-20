@@ -303,6 +303,80 @@
         "url": "https://meet.google.com/$rpc/google.rtc.meetings.v1.MeetingSpaceService/SyncMeetingSpaceCollections"
       },
       "response": []
+    },
+    {
+      "name": "https://hangouts.clients6.google.com/hangouts/v1_meetings/hangouts/bulk?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=protojson",
+      "_postman_id": "c38168c6-60e0-4934-91a7-78c06c95aae7",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "Authorization",
+            "value": "SAPISIDHASH 1611174646_61caf99c25a0483b675f37405a345a6d1835babc"
+          },
+          {
+            "key": "X-Goog-AuthUser",
+            "value": "1"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json+protobuf"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[[[53],[\"boq_hlane2B085CE5\",null,null,\"boq_hlane_rY49jfrsVsQ\"],null,\"en\",null,null,[1,426,1,1,8]],[[null,null,null,[null,1,\"MANKCobT7xsXT0OvNR0\",\"t4carVN96nhO9VktwSrlAKIM\",[412460677375491]]],[null,null,null,[null,2,\"MANKCobT7xsXT0OvNR0\",\"t4carVN96nhO9VktwSrlAKIM\",[412460677375493]]]],[null,null,[\"AOIzluBjPAfywXnRzQ6d_AypSIb7OfWIgdTSg92uko1h06pexn01UmVS5bmT_iT9IRvwDVJ3S1CNXpGY20ctZI-P5elipAUAyptMExZvEfeZbfbg89XO30jVVQS4yOj6sU8AR6EAP3gUWvkoSNW3k1AQvaiYDsPEaE-0W4qTEj8zTshW90Xy2V-1qRSDBjqL0x3iC3zMTHoXiyW-ltdjrxafVRCgTxRmNA\",1611174645234]]]",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": {
+          "raw": "https://hangouts.clients6.google.com/hangouts/v1_meetings/hangouts/bulk?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=protojson",
+          "protocol": "https",
+          "host": [
+            "hangouts",
+            "clients6",
+            "google",
+            "com"
+          ],
+          "path": [
+            "hangouts",
+            "v1_meetings",
+            "hangouts",
+            "bulk"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0"
+            },
+            {
+              "key": "alt",
+              "value": "protojson"
+            }
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
