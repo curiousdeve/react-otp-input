@@ -82,6 +82,227 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "https://hangouts.clients6.google.com/hangouts/v1_meetings/media_sessions/query?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=protojson",
+      "_postman_id": "ce6573a6-2141-44c1-91c3-79d619abf45f",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "Authorization",
+            "value": "SAPISIDHASH 1611174642_9cab64d8973d142ca56c582b58eccd851ebd86db"
+          },
+          {
+            "key": "X-Goog-AuthUser",
+            "value": "1"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json+protobuf"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[[[53],[\"boq_hlane2B085CE5\",null,null,\"boq_hlane_rY49jfrsVsQ\"],null,\"en\",null,null,[1,426,1,1,8]],\"MANKCobT7xsXT0OvNR0\",[3,null,[\"AOIzluDsFth3P6IhbjMpVGraoNGA3k_j4QbC2yWcIgpp-pKqYhYJVsXnuIeCKLT865wHc54nQi78KagDfshVHgUQKfUdYn8KquUcPtkF2KauuNwLYIqIaVBYIOLvKnYWj24niJNnyzjoEcnTGFsna3EAZK5iNj77WW0Tfz3h_Ye5W3xzItheoCXCmeYS6A1bHDq-C2rmnHZHO3TScE3mfbs4XWIAeTj-Lg\",1611174625007]]]",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": {
+          "raw": "https://hangouts.clients6.google.com/hangouts/v1_meetings/media_sessions/query?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=protojson",
+          "protocol": "https",
+          "host": [
+            "hangouts",
+            "clients6",
+            "google",
+            "com"
+          ],
+          "path": [
+            "hangouts",
+            "v1_meetings",
+            "media_sessions",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0"
+            },
+            {
+              "key": "alt",
+              "value": "protojson"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://hangouts.clients6.google.com/hangouts/v1_meetings/media_sessions/callperf?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=proto",
+      "_postman_id": "7cf4c2bd-0f2c-440d-b357-e68fc77ed138",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "key": "X-Goog-Encode-Response-If-Executable",
+            "value": "base64"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "Authorization",
+            "value": "SAPISIDHASH 1611174642_9cab64d8973d142ca56c582b58eccd851ebd86db"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/x-protobuf"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "X-Goog-AuthUser",
+            "value": "1"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003¥UmLSW\u0018>çÞÞöö¶Â\u0015T®8bGüÁ´ÅÛûÑÞ¢Y(R>¥\u0014j¶Ai\u000båëR(\u0005äA\u001a\u00172\"Ñ¹l!¸Ì¯-iÜuËÅDBü\u001a\tqQÉ6#1!ln»\u0017\u00173\\föþxÏóç=ïùÈ{Î!ì\u0004ó)[µ\r\u001du¡6\u0018dòhwäóëuÕuy9[KcWÄ\u0013©ÌDb\u000eä\u0004JA\u0003ÌÂSRKíe.GGÛÚ\u0017©uÓå=e»éôVIBus~_§Ìf\u0011Cå6OkwoUWÝå,íZ}²\tHùÍ<cæy+Ëq¼\u0016hÅl­++­ú\u001aæFÂ>0²Ýí«ª-,0wºz+ó¶\u0007=Ír§\u0014åçyÁj¢Y¦ÁÄù\u0005³Ià\u0016\u0013MûÌ\u0016¿ß\u001c\b°\\úÿÎyXO¬¶ý\u0014«;\u00145\u0014ûD\u0003c60´ähs\u000e/äp¬¡°Ô½æYÚå\u0014\u0003Í>CU·O\føº\u0002\u0006ws{ðµq|ñÞüGÙTï6zoPèÀ»Ié$ tÔ\u0006\u0002È\u0005aP\u0004*@-¨\u0007!°#\u0017)úóo\u0015\n¬U`½\u0002C\n\f+°O1¨àÁ\u0015x\u0001\"\u000bÈÔ\u0018\n\u0006Q0\u0011üø¥ä1\u001cÄ1P;ráÒ¢VÌªû\u000fÝü\u001aÇ2\u0016 <\u0010é\u0000\f\"Q­\u001e_GÅ(ÑYºYÄ8ôÍ#Ç`\\=\\7¡Vu£»¨\u001c¼¯Á/|«&O\\UgØÆ÷ÿ.s\t7o(\\Âä\u0007·\u0015.aòþ\u000f\n09ý@á\u0012&Oý¢p\toÿ¡p\tÓ\u0003\u001a%~@C8¢p\t\f+\\ÂäýÑ§<¡Q¶~[\u0005$ûU-ûÏ×Èþ¨FöÃKþÉRÿiBög\b#x\t»¼æ¥Â'\býYlq@µ\u0015f4Zf\tpH×(Ù½áö!]âË\u00198GyâÓè\u0002¹$00]{k\n\u001b\u0010nai³Ø¹-sØad\u000e?¬V\u0002XÈøN'X\u0005e·\u0019&cøÊÌú¾[^\\e`AÄôR5\\\u0007ÚÏ\u0006Qm\u0012N^;\u000b©wr\f?íÌÒ\r¢\u000bQt©\fâ¨>ªö\u0013ú÷k¾@ßx5=mÃV©\bÍ\u0010qåjâ\f¼ÊIVú\néäb}îÒ\u0017Ü\u0015yíVÉx¥MFc\u0018ô]8éÑ\u0003ÈîØ£}C\b×\u0011\u0004!`\u001coÌ(z*l\u0017µ¨Ø*vôwQ9.¦\u0002*0©\u0011S)ì+nÖy5Ñ#8\u0018ÂÀ\b\u0006v\u001e#\u0010AÍ8d¦u:ö©q\u001cÃç>z%\u000e¯¨gÕ\u000f²æÔ \u0001¿úfó$ü~ó4L'R\u0018k¶Åm£³ÍÃÐVN ¡ü¤ÌÀMDªË63|6ÃK²c¶±4/©ÒÛ>©BÞqdÝ Z5¢V%Q8àI¯ã@z®_Òdª\u0010ØºÜ2Z¼<XO»êÊYîÊ[neét2õø7¸ \u00021,pK\u001bK\u001c×Ïj¯\u001dù\u0011_ÔR8N&QI\u0006u\u0001£Ç÷Ê¥Y-»EíFé«I¦%)~\u0014Òq´4íM£úò\\f®<\f%\u0011\n´iôIÇÊa\u0014jJ-g\\KÚ²RÚkö\u0007²ÖÓúçÇ¨Y5}\u0010{^ÂÓ=¢è1JîèTÒ\u000e¡qõ Eûì\u0017\u001bà\"Ôûúü&4Úcê\taê*ßMæCþ3$î@{¹³¿-º+RÐ\u001db+,ÎPCKiØSØåë(+´³­u-\\eÙ[ãw6Ã¦°«Ó\u001bò\u0016{\"µbÔ\u0019t¸JÜï-òóXÙl\u0015\\¾¦]§¨©ºÒÕX\u001dð«3Zí¯èn-`\\¾h´¬·Äëìtú<y^gyIKôÖ´0Ø\\\\&îíoéÈ÷îÂècóí{\\|sYÕZSC»\u001bûÙP7È×°}ýÎîP°ÃQëh\u000fz«,vsCÑ®Néj\u0017ö\u0014³î*>ÛÞØ\u0010ájkö »ÅTÒD>|òXúÚþ\u0002l} \u0016s\b\u0000\u0000",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": {
+          "raw": "https://hangouts.clients6.google.com/hangouts/v1_meetings/media_sessions/callperf?key=AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0&alt=proto",
+          "protocol": "https",
+          "host": [
+            "hangouts",
+            "clients6",
+            "google",
+            "com"
+          ],
+          "path": [
+            "hangouts",
+            "v1_meetings",
+            "media_sessions",
+            "callperf"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0"
+            },
+            {
+              "key": "alt",
+              "value": "proto"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://meet.google.com/$rpc/google.rtc.meetings.v1.MeetingSpaceService/SyncMeetingSpaceCollections",
+      "_postman_id": "f6ef5c88-f563-4336-82ca-c208f75dc837",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "x-goog-encode-response-if-executable",
+            "value": "base64"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "authorization",
+            "value": "SAPISIDHASH 1611174645_007f068a10c59fb6e72b820221c965e4c41b977b"
+          },
+          {
+            "key": "content-type",
+            "value": "application/x-protobuf"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "x-goog-meeting-token",
+            "value": "1611174625007;AOIzluDsFth3P6IhbjMpVGraoNGA3k_j4QbC2yWcIgpp-pKqYhYJVsXnuIeCKLT865wHc54nQi78KagDfshVHgUQKfUdYn8KquUcPtkF2KauuNwLYIqIaVBYIOLvKnYWj24niJNnyzjoEcnTGFsna3EAZK5iNj77WW0Tfz3h_Ye5W3xzItheoCXCmeYS6A1bHDq-C2rmnHZHO3TScE3mfbs4XWIAeTj-Lg"
+          },
+          {
+            "key": "x-goog-api-key",
+            "value": "AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0"
+          },
+          {
+            "key": "x-goog-authuser",
+            "value": "1"
+          },
+          {
+            "key": "x-goog-meeting-debugid",
+            "value": "boq_hlane_rY49jfrsVsQ"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "\n\u0013spaces/TaSXGF1qKwQB\u0012\u0004\n\u0002\bD\u001a\u0004\n\u0002\b+\"\u0004\n\u0002\b*2\u0004\n\u0002\b\u0001B\u0004\n\u0002\b\u0001J\u0004\n\u0002\b*R\u0004\n\u0002\b*Z\u0004\n\u0002\b*",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": "https://meet.google.com/$rpc/google.rtc.meetings.v1.MeetingSpaceService/SyncMeetingSpaceCollections"
+      },
+      "response": []
     }
   ]
 }
