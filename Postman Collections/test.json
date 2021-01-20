@@ -238,6 +238,71 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "https://meet.google.com/$rpc/google.rtc.meetings.v1.MeetingSpaceService/SyncMeetingSpaceCollections",
+      "_postman_id": "f6ef5c88-f563-4336-82ca-c208f75dc837",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\""
+          },
+          {
+            "key": "x-goog-encode-response-if-executable",
+            "value": "base64"
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "authorization",
+            "value": "SAPISIDHASH 1611174645_007f068a10c59fb6e72b820221c965e4c41b977b"
+          },
+          {
+            "key": "content-type",
+            "value": "application/x-protobuf"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+          },
+          {
+            "key": "x-goog-meeting-token",
+            "value": "1611174625007;AOIzluDsFth3P6IhbjMpVGraoNGA3k_j4QbC2yWcIgpp-pKqYhYJVsXnuIeCKLT865wHc54nQi78KagDfshVHgUQKfUdYn8KquUcPtkF2KauuNwLYIqIaVBYIOLvKnYWj24niJNnyzjoEcnTGFsna3EAZK5iNj77WW0Tfz3h_Ye5W3xzItheoCXCmeYS6A1bHDq-C2rmnHZHO3TScE3mfbs4XWIAeTj-Lg"
+          },
+          {
+            "key": "x-goog-api-key",
+            "value": "AIzaSyCG_6Rm6c7ucLr2NwAq33-vluCp2VfSkf0"
+          },
+          {
+            "key": "x-goog-authuser",
+            "value": "1"
+          },
+          {
+            "key": "x-goog-meeting-debugid",
+            "value": "boq_hlane_rY49jfrsVsQ"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "\n\u0013spaces/TaSXGF1qKwQB\u0012\u0004\n\u0002\bD\u001a\u0004\n\u0002\b+\"\u0004\n\u0002\b*2\u0004\n\u0002\b\u0001B\u0004\n\u0002\b\u0001J\u0004\n\u0002\b*R\u0004\n\u0002\b*Z\u0004\n\u0002\b*",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": "https://meet.google.com/$rpc/google.rtc.meetings.v1.MeetingSpaceService/SyncMeetingSpaceCollections"
+      },
+      "response": []
     }
   ]
 }
