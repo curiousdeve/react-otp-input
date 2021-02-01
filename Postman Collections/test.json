@@ -378,5 +378,27 @@
       },
       "response": []
     }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "130ff051-018a-4bcf-a698-46b31bb0d23a",
+        "type": "text/javascript",
+        "exec": [
+          "console.log('hello');"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "f559862b-0f73-43b5-90b4-1f703d156aaa",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
   ]
 }
