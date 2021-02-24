@@ -7,6 +7,22 @@
   "item": [
     {
       "name": "https://play.google.com/log?format=json&hasfast=true&authuser=1",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "b90eb173-ff66-412b-97e2-4e5dd664b939",
+            "exec": [
+              "// tests",
+              "pm.test(\"response is ok\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "_postman_id": "381723ff-9ab1-4008-9107-fcbd4f12647a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
