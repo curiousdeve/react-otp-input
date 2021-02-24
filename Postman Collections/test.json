@@ -14,9 +14,9 @@
             "id": "b90eb173-ff66-412b-97e2-4e5dd664b939",
             "exec": [
               "// tests",
-              "pm.test(\"response is ok\", function () {",
-              "    pm.response.to.have.status(200);",
-              "});",
+              "// pm.test(\"response is ok\", function () {",
+              "//     pm.response.to.have.status(200);",
+              "// });",
               ""
             ],
             "type": "text/javascript"
